@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Book Your Massage | Bounce Fitness</title>
+  <meta name="description" content="Book your 30-minute massage at Bounce Fitness for $30 in your first month.">
+  <meta property="og:title" content="Book Your Massage | Bounce Fitness">
+  <meta property="og:description" content="Book your 30-minute massage at Bounce Fitness for $30 in your first month.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="images/hero-banner.jpg">
+  <meta name="theme-color" content="#0f3b30">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='9' fill='%230f3b30'/%3E%3Cpath d='M20 33V20M20 24c-8 0-12-5-12-14 8 0 12 5 12 14zM20 21c0-8 4-12 12-12 0 8-4 12-12 12z' fill='none' stroke='%23e6c872' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="promo">First month only: 30-minute massage <strong>$30</strong> <s>$45</s> <a href="booking.html">Book your massage →</a></div>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="logo" href="index.html" aria-label="Bounce Fitness – home">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 35V20"/><path d="M20 24C12 24 8 19 8 10c8 0 12 5 12 14z"/><path d="M20 21c0-8 4-12 12-12 0 8-4 12-12 12z"/></svg>
+      <span class="word"><b>BOUNCE</b><small>FITNESS</small></span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+    <label for="nav-toggle" class="burger" aria-hidden="true">☰</label>
+    <nav aria-label="Main"><ul class="nav-links">
+      <li><a href="massages.html">Massages</a></li><li><a href="locations.html">Locations</a></li><li><a href="benefits.html">Benefits</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a class="nav-cta" href="booking.html">Book now</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / Booking</nav>
+    <h1>Book Your 30-Minute Massage</h1>
+    <p>Choose your massage and centre, tell us when suits you, and we'll confirm your session.</p>
+  </div>
+</section>
+<section style="padding-top:30px">
+  <div class="container">
+    <form class="checkout" action="mailto:massage@bouncefitness.com.au" method="post" enctype="text/plain">
+      <div>
+        <div class="panel">
+          <h2><span>1</span> Choose your massage</h2>
+          <div class="options"><div class="opt">
+          <input type="radio" name="massage" id="svc-relax" value="Relaxation Massage">
+          <label for="svc-relax"><span class="t"><strong>Relaxation Massage</strong><small>30 minutes · Unwind. Breathe. Reset.</small></span><span class="p">$30</span></label>
+        </div><div class="opt">
+          <input type="radio" name="massage" id="svc-sports" value="Sports Massage" checked>
+          <label for="svc-sports"><span class="t"><strong>Sports Massage</strong><small>30 minutes · Target tension. Improve performance. Recover faster.</small></span><span class="p">$30</span></label>
+        </div><div class="opt">
+          <input type="radio" name="massage" id="svc-deep" value="Deep Tissue Massage">
+          <label for="svc-deep"><span class="t"><strong>Deep Tissue Massage</strong><small>30 minutes · Release tension. Restore balance.</small></span><span class="p">$30</span></label>
+        </div><div class="opt">
+          <input type="radio" name="massage" id="svc-wellness" value="Wellness Massage">
+          <label for="svc-wellness"><span class="t"><strong>Wellness Massage</strong><small>30 minutes · Relax • Rejuvenate • Feel better.</small></span><span class="p">$30</span></label>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h2><span>2</span> Choose your centre</h2>
+          <div class="options cols-2"><div class="opt">
+          <input type="radio" name="centre" id="loc-cairns" value="Cairns" required>
+          <label for="loc-cairns"><span class="t"><strong>Cairns</strong><small>Eastern Queensland hub</small></span></label>
+        </div><div class="opt">
+          <input type="radio" name="centre" id="loc-brisbane" value="Brisbane" required>
+          <label for="loc-brisbane"><span class="t"><strong>Brisbane</strong><small>Central location with premium facilities</small></span></label>
+        </div><div class="opt">
+          <input type="radio" name="centre" id="loc-sydney" value="Sydney" required>
+          <label for="loc-sydney"><span class="t"><strong>Sydney</strong><small>Multiple convenient locations</small></span></label>
+        </div><div class="opt">
+          <input type="radio" name="centre" id="loc-melbourne" value="Melbourne" required>
+          <label for="loc-melbourne"><span class="t"><strong>Melbourne</strong><small>Southern wellness destination</small></span></label>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h2><span>3</span> Your details</h2>
+          <div class="row-2">
+            <div class="field"><label for="b-name">Full name</label><input id="b-name" name="name" type="text" autocomplete="name" required></div>
+            <div class="field"><label for="b-phone">Phone</label><input id="b-phone" name="phone" type="tel" autocomplete="tel" required></div>
+          </div>
+          <div class="field"><label for="b-email">Email</label><input id="b-email" name="email" type="email" autocomplete="email" required></div>
+          <div class="row-2">
+            <div class="field"><label for="b-date">Preferred date</label><input id="b-date" name="date" type="date" required></div>
+            <div class="field"><label for="b-time">Preferred time</label>
+              <select id="b-time" name="time"><option>Morning</option><option>Afternoon</option><option>Evening</option></select></div>
+          </div>
+          <div class="field"><label for="b-note">Notes (optional)</label><textarea id="b-note" name="notes" placeholder="Anything your therapist should know?"></textarea></div>
+        </div>
+      </div>
+      <aside class="summary" aria-label="Booking summary">
+        <h2>Your booking</h2>
+        <div class="line"><span>Massage</span><span><span class="sum-svc sum-relax">Relaxation Massage</span><span class="sum-svc sum-sports">Sports Massage</span><span class="sum-svc sum-deep">Deep Tissue Massage</span><span class="sum-svc sum-wellness">Wellness Massage</span></span></div>
+        <div class="line"><span>Centre</span><span><span class="sum-none">Select a centre</span><span class="sum-loc sum-cairns">Cairns</span><span class="sum-loc sum-brisbane">Brisbane</span><span class="sum-loc sum-sydney">Sydney</span><span class="sum-loc sum-melbourne">Melbourne</span></span></div>
+        <div class="line"><span>Duration</span><span>30 minutes</span></div>
+        <div class="line"><span>Usual price</span><s>$45</s></div>
+        <div class="save-note">Introductory offer – you save $15</div>
+        <div class="line total"><span>Total</span><span>$30</span></div>
+        <label style="display:flex;gap:10px;align-items:flex-start;margin:18px 0;font-size:.85rem;cursor:pointer"><input type="checkbox" required style="margin-top:4px;width:18px;height:18px;flex:none"><span>I agree to the <a href="legal.html#booking-terms" style="text-decoration:underline">Booking Terms</a>.</span></label>
+        <button class="btn btn-block" type="submit">Request booking</button>
+        <p class="note">Introductory pricing applies during the confirmed first promotional month. Dates, eligibility and availability are subject to the approved offer terms. We'll confirm your session time and therapist by phone or email. No payment is taken on this page.</p>
+      </aside>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="index.html" aria-label="Bounce Fitness – home">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 35V20"/><path d="M20 24C12 24 8 19 8 10c8 0 12 5 12 14z"/><path d="M20 21c0-8 4-12 12-12 0 8-4 12-12 12z"/></svg>
+      <span class="word"><b>BOUNCE</b><small>FITNESS</small></span>
+    </a>
+        <p>Premier fitness and wellness centre offering world-class gym facilities and now professional massage services to support your complete wellbeing journey.</p>
+        <div class="contact-line"><b>⌖</b><span>Multiple locations across Australia – Cairns, Brisbane, Sydney, Melbourne</span></div>
+        <div class="contact-line"><b>✆</b><span>Hotline: <a href="tel:1300268623">1300 BOUNCE (1300 268 623)</a></span></div>
+        <div class="contact-line"><b>✉</b><span><a href="mailto:massage@bouncefitness.com.au">massage@bouncefitness.com.au</a></span></div>
+        <div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="YouTube">▶</a></div>
+      </div>
+      <div>
+        <h4>Massages</h4>
+        <ul>
+          <li><a href="massage-relaxation.html">Relaxation Massage</a></li><li><a href="massage-sports.html">Sports Massage</a></li><li><a href="massage-deep-tissue.html">Deep Tissue Massage</a></li><li><a href="massage-wellness.html">Wellness Massage</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Locations</h4>
+        <ul>
+          <li><a href="locations.html#cairns">Cairns Centre</a></li><li><a href="locations.html#brisbane">Brisbane Centre</a></li><li><a href="locations.html#sydney">Sydney Centre</a></li><li><a href="locations.html#melbourne">Melbourne Centre</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="benefits.html">Benefits</a></li>
+          <li><a href="about.html#careers">Careers</a></li>
+          <li><a href="contact.html">Contact Support</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Bounce Fitness. All rights reserved.</span>
+      <span><a href="legal.html#privacy">Privacy Policy</a> · <a href="legal.html#terms">Terms of Service</a> · <a href="legal.html#booking-terms">Booking Terms</a></span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
